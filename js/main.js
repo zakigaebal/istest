@@ -1,5 +1,3 @@
-const header = document.getElementById('header');
-const footer = document.getElementById('footer');
 const qna = document.getElementById('qna');
 const u_name = document.querySelector('input[type=text]');
 const wrap = document.getElementById('wrap');
@@ -101,13 +99,7 @@ const goResult = () => {
   desc.innerHTML = infoList[grade].desc;
 
   setTimeout(() => {
-    header.style.display = 'block';
-    footer.style.display = 'block';
     result.style.display = 'block';
-    header.style.animation =
-      'fade-in 0.3s forwards';
-    footer.style.animation =
-      'fade-in 0.3s forwards';
     result.style.animation =
       'going-up 0.5s, ' +
       'fade-in 0.5s forwards';
@@ -195,18 +187,10 @@ const goNext = () => {
 
 const begin = () => {
   const welcome = document.getElementById('welcome');
-  header.style.animation =
-    'going-up 0.4s forwards, ' +
-    'fade-out 0.4s forwards';
-  footer.style.animation =
-    'going-down 0.4s forwards, ' +
-    'fade-out 0.4s forwards';
   setTimeout(() => welcome.style.animation =
     'going-up 0.4s ease-in-out forwards, ' +
     'fade-out 0.4s ease-in-out forwards', 500);
   setTimeout(() => {
-    header.style.display = 'none';
-    footer.style.display = 'none';
     welcome.style.display = 'none';
     qna.style.display = 'block';
     if (pcMQL.matches) {
