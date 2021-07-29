@@ -1,16 +1,20 @@
+// 돌부처
+// (이간질러)가스라이팅
+// 인성쓰레기
+
 const qnaList = [
   {
-    q: '1. 하루 중 컨디션이 제일 좋은 시간은?',
+    q: '1. 친구가 간식을 먹고있다',
     a: [
-      { answer: 'a. 아침', score: 2 },
-      { answer: 'b. 낮부터 이른 저녁', score: 4 },
-      { answer: 'c. 늦은 밤', score: 6 }
+      { answer: 'a. 맛있어?', score: 2 },
+      { answer: 'b. 한입만', score: 4 },
+      { answer: 'c. 손을 내민다', score: 6 }
     ]
   },
   {
-    q: '2. 보통 어떻게 걸으시나요?',
+    q: '2. ',
     a: [
-      { answer: 'a. 큰 보폭으로 빨리', score: 6 },
+      { answer: 'a. 한입 뺏어먹기', score: 6 },
       { answer: 'b. 좁은 보폭으로 빨리', score: 4 },
       { answer: 'c. 고개를 들고 보통 속도로', score: 7 },
       { answer: 'd. 고개를 숙이고 보통 속도로', score: 2 },
